@@ -1,0 +1,7 @@
+<div class="img-container">
+    <img class="img-show" *ngIf="showImage"  src="assets/img/{{images[currentImage]}}">
+    </div>
+    
+    <div class="img-container overlay-container">
+        <p  *ngIf="showImage" class="fadeIn">{{headlines[currentImage]}}</p>
+    </div>
